@@ -1,5 +1,5 @@
 <?php
-require_once 'database.php';
+require_once 'config.php';
 
 session_start();
 
@@ -24,4 +24,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         echo "Error: " . $e->getMessage();
     }
 }
+
 ?>
